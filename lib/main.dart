@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shop_app/view/screens/home.dart';
 import 'package:shop_app/view/screens/login.dart';
 import 'package:shop_app/view/screens/register.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       title: 'Flutter Demo',
-      home: Register(),
+      home: HomePage(),
     );
   }
 }
